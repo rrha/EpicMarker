@@ -1,0 +1,23 @@
+﻿<Window x:Class="EpicMarker.Tools"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EpicMarker"
+        mc:Ignorable="d"
+        Title="Tools" Height="450" Width="34"
+        WindowStyle="None" 
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        >
+    <StackPanel>
+        <Button PreviewMouseDown="Move" Height="20" />
+        <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button1" Click="button1_Click" Height="25">
+            <Image Source="/images/delete.png"/>
+        </Button>
+        <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button2" Click="button2_Click" Height="25">
+            <Image Source="/images/exit.png"/>
+        </Button>
+    </StackPanel>
+</Window>
