@@ -11,13 +11,63 @@
         Background="Transparent"
         AllowsTransparency="True"
         >
-    <StackPanel>
-        <Button PreviewMouseDown="Move" Height="20" />
+    <StackPanel Margin="0,8,0,-8">
+        <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" PreviewMouseDown="Move" Margin="0,0,0,0" Height="35">
+            <Image Source="/images/Logo.png"/>
+        </Button>
+        <Border  BorderThickness="1" BorderBrush="Black">
+        <StackPanel Background="Wheat">
+            <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button_1" Click="button_1_Click" Height="25">
+                <Image Source="/images/mouse.png"/>
+                <Button.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                </Button.BitmapEffect>
+            </Button>
+        <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button0" Click="button0_Click" Height="25">
+            <Image Source="/images/pen.png"/>
+                <Button.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                </Button.BitmapEffect>
+            </Button>
         <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button1" Click="button1_Click" Height="25">
             <Image Source="/images/delete.png"/>
-        </Button>
+                <Button.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                </Button.BitmapEffect>
+            </Button>
         <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button2" Click="button2_Click" Height="25">
             <Image Source="/images/exit.png"/>
-        </Button>
+                <Button.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                </Button.BitmapEffect>
+            </Button>
+        <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button3" Click="button3_Click" Height="25">
+            <Image Source="/images/color-palette.png"/>
+                <Button.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                </Button.BitmapEffect>
+            </Button>
+                <Button Command="Undo" BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button4" Height="25">
+                    <Image Source="/images/undo.png"/>
+                    <Button.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                    </Button.BitmapEffect>
+                </Button>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="15">
+                <Image Source="/images/color-palette.png"/>
+                    <Button.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                    </Button.BitmapEffect>
+                </Button>
+            <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="15">
+                <Image Source="/images/color-palette.png"/>
+                    <Button.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                    </Button.BitmapEffect>
+                </Button>
+        </StackPanel>
+        </StackPanel>
+        </Border>
     </StackPanel>
 </Window>

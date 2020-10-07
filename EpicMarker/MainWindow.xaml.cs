@@ -26,10 +26,10 @@ namespace EpicMarker
             InitializeComponent();
             toolsWindow.Topmost = true;
             toolsWindow.Show();
+            this.Hide();
         }
         private void inkCanvas1_Gesture(object sender, InkCanvasGestureEventArgs e)
         {
-
         }
 
     }

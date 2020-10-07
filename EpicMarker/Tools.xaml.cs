@@ -25,9 +25,22 @@ namespace EpicMarker
         }
         private void Move(object sender, RoutedEventArgs e)
         {
+
             this.DragMove();
             e.Handled = true;
         }
+        private void button_1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            mainWindow.Hide();
+        }
+        private void button0_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            mainWindow.Show();
+            mainWindow.inkCanvas1.DefaultDrawingAttributes.Color = Colors.SpringGreen;
+        }
+
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
@@ -38,6 +51,10 @@ namespace EpicMarker
             this.Close();
             MainWindow mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             mainWindow.Close();
+        }
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
