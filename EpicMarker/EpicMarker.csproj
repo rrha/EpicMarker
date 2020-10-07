@@ -121,5 +121,22 @@
   <ItemGroup>
     <Resource Include="Images\undo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Black.png" />
+    <Resource Include="Images\Blue.png" />
+    <Resource Include="Images\Brown.png" />
+    <Resource Include="Images\Gray.png" />
+    <Resource Include="Images\Green.png" />
+    <Resource Include="Images\Orange.png" />
+    <Resource Include="Images\Pink.png" />
+    <Resource Include="Images\Purple.png" />
+    <Resource Include="Images\Red.png" />
+    <Resource Include="Images\White.png" />
+    <Resource Include="Images\WhiteSmoke.png" />
+    <Resource Include="Images\Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Circle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
