@@ -13,7 +13,7 @@
         >
     <StackPanel Margin="0,8,0,-8">
         <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" PreviewMouseDown="Move" Margin="0,0,0,0" Height="35">
-            <Image Source="/images/Logo.png"/>
+            <Image Source="/images/Circle.png"/>
         </Button>
         <Border  BorderThickness="1" BorderBrush="Black">
         <StackPanel Background="Wheat">
@@ -63,12 +63,13 @@
                     <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                 </Button.BitmapEffect>
             </Button>
-        <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button2" Click="button2_Click" Height="25">
-            <Image Source="/images/exit.png"/>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
-                </Button.BitmapEffect>
-            </Button>
+        
+                <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button24" Click="button24_Click" Height="25">
+                    <Image Source="/images/screenshot.png"/>
+                    <Button.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                    </Button.BitmapEffect>
+                </Button>
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <Button BorderThickness="0"  Click="button3_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Height="15">
@@ -154,6 +155,12 @@
                         </Button.BitmapEffect>
                     </Button>
                 </StackPanel>
+                <Button BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button2" Click="button2_Click" Height="25">
+                    <Image Source="/images/exit.png"/>
+                    <Button.BitmapEffect>
+                        <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
+                    </Button.BitmapEffect>
+                </Button>
             </StackPanel>
         </Border>
     </StackPanel>
