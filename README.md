@@ -5,7 +5,7 @@
 **Epic Marker - simple screen marker for windows!**
 # Features  
 * Pen   
-* Screenshots    
+* Screenshot    
 * 12 Colors   
 * Tool size   
 
