@@ -1,8 +1,10 @@
 # EpicMarker
 <p align="center">
 <img src="https://github.com/era7im/EpicMarker/blob/main/EpicMarker/Images/logo.png" width="100" > 
-**Epic Marker - simple screen marker for windows!**  
+
 </p>
+
+**Epic Marker - simple screen marker for windows!**  
 
 
 # Features  
