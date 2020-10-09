@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicMarker", "EpicMarker.csproj", "{2E62CE29-247F-4E27-939B-B57986CEC173}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EpicMarker Installer", "..\EpicMarker Installer\EpicMarker Installer.vdproj", "{3E49D748-2708-45F3-868B-794AFD401A76}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{2E62CE29-247F-4E27-939B-B57986CEC173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E62CE29-247F-4E27-939B-B57986CEC173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E62CE29-247F-4E27-939B-B57986CEC173}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E49D748-2708-45F3-868B-794AFD401A76}.Debug|Any CPU.ActiveCfg = Debug
-		{3E49D748-2708-45F3-868B-794AFD401A76}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
