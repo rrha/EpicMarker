@@ -1,6 +1,6 @@
 # EpicMarker
 <p align="center">
-<img src="https://github.com/era7im/EpicMarker/blob/main/EpicMarker/Images/logo.png" width="200" > 
+<img src="https://github.com/era7im/EpicMarker/blob/main/EpicMarker/Images/logo.png" width="150" > 
 
 </p>
 
@@ -8,7 +8,6 @@
 
 
 # Features  
-* Pen   
 * Screenshot    
 * 12 Colors   
 * Tool size   
