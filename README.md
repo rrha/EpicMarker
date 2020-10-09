@@ -15,4 +15,4 @@
 <p align="center">
 <img src="https://github.com/era7im/EpicMarker/blob/main/Demo.gif" width="400">
 </p>
-**<a href="https://github.com/era7im/EpicMarker/releases/download/v1.0/EpicMarker.Installer.msi" rel="nofollow">Download for Windows</a>**
+<a href="https://github.com/era7im/EpicMarker/releases/download/v1.0/EpicMarker.Installer.msi" rel="nofollow">**Download for Windows**</a>
