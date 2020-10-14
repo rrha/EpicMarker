@@ -27,7 +27,6 @@
 
 <a href="https://github.com/era7im/EpicMarker/releases/download/v1.0/EpicMarker.Installer.msi" rel="nofollow">Windows</a>
 
-# VirusTotal Check  
 
 
 
