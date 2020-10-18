@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EpicMarker"
         mc:Ignorable="d"
-        Title="Tools" Height="349.5" Width="31.5"
+        Title="Tools" Height="400" Width="32"
         WindowStyle="None" 
         ResizeMode="NoResize"
         Background="Transparent"
@@ -15,7 +15,7 @@
         <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" PreviewMouseDown="Move" Margin="0,0,0,0" Height="35">
             <Image Source="/images/logo.png" Height="35" Width="30"/>
         </Button>
-        <Border CornerRadius="5,5,5,5" BorderThickness="1" BorderBrush="Black">
+        <Border CornerRadius="2,2,2,2" BorderThickness="1" BorderBrush="Black">
             <StackPanel Background="#a3d3c7">
                 <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button_1" Click="button_1_Click" Height="25">
                     <Image Width="21" Source="/images/cursor.png" Height="25"/>
@@ -29,29 +29,29 @@
                         <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                     </Button.BitmapEffect>
                 </Button>
-                <StackPanel Margin="0,-5,0,-10" Orientation="Vertical" HorizontalAlignment="Center">
-                    <Button Margin="0,0,0,-10" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button20" Click="button20_Click" Height="25">
-                        <Image Source="/images/Circle.png" Width="9" Height="8"/>
+                <StackPanel  Orientation="Vertical" HorizontalAlignment="Center">
+                    <Button Margin="-2" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button20" Click="button20_Click" Height="25">
+                        <Image Source="/images/Circle.png" Width="9" Height="15"/>
                         <Button.BitmapEffect>
                             <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                         </Button.BitmapEffect>
                     </Button>
-                    <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button21" Click="button21_Click" Height="25">
-                        <Image Source="/images/Circle.png" Width="11" Height="15"/>
+                    <Button Margin="-1" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button21" Click="button21_Click" Height="31" Width="19">
+                        <Image Source="/images/Circle.png" Width="14" Height="21"/>
                         <Button.BitmapEffect>
                             <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                         </Button.BitmapEffect>
                     </Button>
                 </StackPanel>
                 <StackPanel  Orientation="Vertical" HorizontalAlignment="Center">
-                    <Button BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button22" Click="button22_Click" Height="25">
+                    <Button Margin="-1" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button22" Click="button22_Click" Height="28" Width="23">
                         <Image Source="/images/Circle.png" Width="16" Height="15"/>
                         <Button.BitmapEffect>
                             <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                         </Button.BitmapEffect>
                     </Button>
-                    <Button Margin="0,-5,0,-0" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button23" Click="button23_Click" Height="25">
-                        <Image Source="/images/Circle.png" Width="18" Height="25"/>
+                    <Button  Margin="-1" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Name="button23" Click="button23_Click" Height="25">
+                        <Image Source="/images/Circle.png" Width="21" Height="25"/>
                         <Button.BitmapEffect>
                             <DropShadowBitmapEffect Color="Black" Direction="40" Softness="0.5" ShadowDepth="0" Opacity="0.5" />
                         </Button.BitmapEffect>

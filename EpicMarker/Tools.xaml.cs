@@ -117,26 +117,26 @@ namespace EpicMarker
         private void button20_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
-            mainWindow.inkCanvas1.DefaultDrawingAttributes.Width = 5f;
-            mainWindow.inkCanvas1.DefaultDrawingAttributes.Height = 5f;
-        }
-        private void button21_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Width = 8f;
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Height = 8f;
         }
-        private void button22_Click(object sender, RoutedEventArgs e)
+        private void button21_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Width = 10f;
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Height = 10f;
         }
-        private void button23_Click(object sender, RoutedEventArgs e)
+        private void button22_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Width = 13f;
             mainWindow.inkCanvas1.DefaultDrawingAttributes.Height = 13f;
+        }
+        private void button23_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            mainWindow.inkCanvas1.DefaultDrawingAttributes.Width = 15f;
+            mainWindow.inkCanvas1.DefaultDrawingAttributes.Height = 15f;
         }
         private void button24_Click(object sender, RoutedEventArgs e)
         {

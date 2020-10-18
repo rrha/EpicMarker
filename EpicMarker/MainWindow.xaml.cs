@@ -2,7 +2,6 @@
 using System.Windows.Controls;
 namespace EpicMarker
 {
-
     public partial class MainWindow : Window
     {
         Tools toolsWindow = new Tools();

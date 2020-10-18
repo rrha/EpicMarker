@@ -14,6 +14,6 @@
         AllowsTransparency="True"
         Background="Transparent">
      <Grid>
-        <InkCanvas Background="#1FFFFFFF"  Name="inkCanvas1"  Gesture="inkCanvas1_Gesture" />
+        <InkCanvas Background="#11ffffff"  Name="inkCanvas1"  Gesture="inkCanvas1_Gesture" />
     </Grid>
 </Window>
