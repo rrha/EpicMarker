@@ -10,7 +10,10 @@
 # Features  
 * Screenshot    
 * 12 Colors   
-* Tool size   
+* Tool size 
+* Eraser
+* Pen 
+
 <p align="center">
 
 <img src="https://github.com/era7im/EpicMarker/blob/main/Preview_2.png" width="400">  
