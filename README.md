@@ -16,7 +16,7 @@
 
 <p align="center">
 
-<img src="https://github.com/era7im/EpicMarker/blob/main/Preview_2.png" width="400">  
+<img src="https://github.com/era7im/EpicMarker/blob/main/EpicMarker.png" width="400">  
 
 </p> 
 
