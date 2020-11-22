@@ -28,7 +28,7 @@
 
 # Download  
 
-<a href="https://github.com/era7imOSS/EpicMarker/releases/download/v1.0/Epic.Marker.msi" rel="nofollow">Windows</a>
+<a href="https://github.com/era7imOSS/EpicMarker/releases/download/v1.0/Setup.msi" rel="nofollow">Windows</a>
 
 
 
