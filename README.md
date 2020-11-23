@@ -1,4 +1,4 @@
-# EpicMarker
+# Epic Marker
 <p align="center">
 <img src="https://github.com/era7im/EpicMarker/blob/main/EpicMarker/Images/logo.png" width="150" > 
 
@@ -28,7 +28,7 @@
 
 # Download  
 
-<a href="https://github.com/era7im/EpicMarker/releases/download/v1.0/EpicMarker.Installer.msi" rel="nofollow">Windows</a>
+<a href="https://github.com/era7imOSS/EpicMarker/releases/download/v1.0/Setup.msi" rel="nofollow">Windows</a>
 
 
 
